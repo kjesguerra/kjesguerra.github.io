@@ -56,6 +56,11 @@ footer{background:#030304;color:#807b8f;padding:25px 0;border-top:1px solid rgba
     margin-bottom: 0;
     height: 20px;
 }
+.project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .swiper.projects-swiper {
     padding-bottom: 50px;
 }
