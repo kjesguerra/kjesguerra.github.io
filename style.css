@@ -942,7 +942,7 @@ div#projectModalLinks a {
   position: absolute;
   inset: 0;
 
-  background: rgba(5, 8, 15, 0.88);
+  background: radial-gradient(circle at 50% 0%,rgba(63,45,179,.05),transparent 34%);
 
   backdrop-filter: blur(8px);
 }
@@ -1252,11 +1252,11 @@ div#projectModalLinks a {
 @media (max-width: 900px) {
 
   .project-details-modal {
-    padding: 15px;
+    padding: 0px;
   }
 
   .project-details-dialog {
-    max-height: 94vh;
+    max-height: 100vh;
 
     border-radius: 14px;
   }
@@ -1287,11 +1287,11 @@ min-height: 100% !important;
 @media (max-width: 576px) {
 
   .project-details-modal {
-    padding: 8px;
+    padding: 0px;
   }
 
   .project-details-dialog {
-    max-height: 96vh;
+    max-height: 100vh;
   }
 
   .project-modal-image {
